@@ -46,4 +46,4 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjY1OTMxMjMsImlkIjoiMTQ0MjEiLCJ
 
 ![alt-text](/img/local-storage.png)
 
-6.  Then access [PMAS](http://localhost:3000/app/evaluationform).
+6.  Then access `http://localhost:3000/app/evaluationform`.

@@ -12,6 +12,7 @@ git clone https://github.com/jomelmartyguiao/pms
 ```
 
 2.  Run `npm install`
+3.  cd client, then execute `npm install` again
 
     > Note: Use branch `master`
 
@@ -28,6 +29,9 @@ git clone https://github.com/jomelmartyguiao/pms
 1.  Download `newRFCDATA.csv`.
 2.  Open CMD and go to `C:\Program Files\MongoDB\Server\3.4\bin`.
 
+> Note: Ask the permission of Sir Jantzen before running the command for test and prod server.
+> Change the path of newRFCDATA.csv on where you place the file.
+
 - Run this command for local DB
 
 ```
@@ -37,15 +41,13 @@ mongoimport --db rfc-pms --collection "users" --drop --type csv --headerline --h
 - Run this command for test server DB
 
 ```
-mongoimport -h ds155073.mlab.com:55073 -d pmasprod -c users -u rfcpmas -p pmas1234 --file "C:\JMGGuiao\newRFCDATA.csv" --type csv --headerline --ignoreBlanks
+mongoimport -h ds127362.mlab.com:27362 -d rfcpmas -c users -u rfcpmas -p pmas123 --file "C:\JMGGuiao\newRFCDATA.csv" --type csv --headerline --ignoreBlanks
 ```
 
 - Run this command for production server DB
 
 ```
-mongoimport -h ds127362.mlab.com:27362 -d rfcpmas -c users -u rfcpmas -p pmas123 --file "C:\JMGGuiao\newRFCDATA.csv" --type csv --headerline --ignoreBlanks
+mongoimport -h ds155073.mlab.com:55073 -d pmasprod -c users -u rfcpmas -p pmas1234 --file "C:\JMGGuiao\newRFCDATA.csv" --type csv --headerline --ignoreBlanks
 ```
-
-> Note: Change the path of newRFCDATA.csv on where you place the file.
 
 3.  Open Robo 3T and check the `users` collection if the data are uploaded.
