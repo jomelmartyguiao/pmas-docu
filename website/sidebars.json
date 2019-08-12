@@ -1,7 +1,10 @@
 {
 	"docs": {
 		"Setting Up PMAS": ["copy-pmas", "run-local"],
-		"Updating PMAS": ["update-pmas-test", "update-pmas-prod"]
+		"Updating PMAS": ["update-pmas-test", "update-pmas-prod"],
+		"Database": ["db-collection", "db-commands"],
+		"Auth/JWT": ["auth-files"],
+		"API": ["api"]
 	},
 	"docs-other": {
 		"First Category": ["doc4", "doc5"]

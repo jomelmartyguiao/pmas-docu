@@ -1,7 +1,15 @@
 ---
-id: reports
-title: Reports
+id: api
+title: API
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh sceleris
-j
+## Pattern
+
+- Create routes in `/pms/routes`.
+![alt-text](/img/routebsc.png)
+
+- Create models in `/pms/models`.
+![alt-text](/img/modelbsc.png)
+
+- Create controllers in `/pms/controllers`.
+![alt-text](/img/controllerbsc.png)
