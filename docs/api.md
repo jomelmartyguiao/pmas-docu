@@ -13,3 +13,10 @@ title: API
 
 - Create controllers in `/pms/controllers`.
 ![alt-text](/img/controllerbsc.png)
+
+
+## Routes
+
+
+
+> Webhook for updates of HRIS not implemented.

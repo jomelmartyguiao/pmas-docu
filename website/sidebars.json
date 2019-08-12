@@ -4,7 +4,9 @@
 		"Updating PMAS": ["update-pmas-test", "update-pmas-prod"],
 		"Database": ["db-collection", "db-commands"],
 		"Auth/JWT": ["auth-files"],
-		"API": ["api"]
+		"API": ["api"],
+		"React": ["react-app"],
+		"Questions": ["questions"]
 	},
 	"docs-other": {
 		"First Category": ["doc4", "doc5"]
