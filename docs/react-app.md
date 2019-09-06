@@ -22,7 +22,7 @@ title: React Application
 
 ## Components
 
-### Sections Builder 
+### Sections Builder Page
 > pms/client/src/components/SectionBuilder
 
 - ManageSections.js - manage section main component
@@ -31,7 +31,7 @@ title: React Application
 - SectionQuestionForm.js - section kpi form
 - SectionQuestionTable.js - section kpi table
 
-### BSC Builder 
+### BSC Builder Page
 > pms/client/src/components/BSCBuilder
 
 - AssignBSCForm.js - assign BSC form 
@@ -103,7 +103,7 @@ title: React Application
 - AssessPerEmployee.js - assess per employee main component
 - AssessPerEmployeeModal.js - assess per employee modal
 
-### Reports 
+### Reports Page
 > pms/client/src/components/Reports
 
 - Reports.js - main component
